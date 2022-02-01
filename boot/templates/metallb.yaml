@@ -18,5 +18,5 @@ spec:
           value: "192.168.16.240/30"
       valueFiles:
       - values.yaml
-    repoURL: https://kubernetes-charts.storage.googleapis.com/
-    targetRevision: 0.12.0
+    repoURL: https://charts.bitnami.com/bitnami
+    targetRevision: 2.6.2

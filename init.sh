@@ -12,3 +12,4 @@ kubectl -n argocd patch secret argocd-secret \
   "admin.passwordMtime": "'$(date +%FT%T%Z)'"
 }}' -n argocd
 # password
+kubectl apply -f application-boot.yaml

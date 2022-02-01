@@ -13,7 +13,7 @@ spec:
       valueFiles:
       - values.yaml
     path: boot
-    repoURL: https://github.com/AlexsJones/argocd-istio-bootstrap.git
+    repoURL: https://github.com/jackliusr/k8s-argocd-bootstrap.git
     targetRevision: HEAD
   syncPolicy:
     automated: {}
